@@ -22,7 +22,7 @@ else:
     import urllib.parse
 
 cl = LINETCR.LINE()
-cl.login(token="(Isi TOKEN Kamu)")
+cl.login(token="")
 cl.loginResult()
 
 print "==================[Login Success]==================="
@@ -42,7 +42,6 @@ helpmsg ="""╔═════════════════════�
 helppro ="""╔═════════════════
 ╠   Protect Command
 ╠➩〘Protect on/off〙
-���➩〘Qr on/off〙
 ╠➩〘Invit on/off〙
 ╠➩〘Cancel on/off〙
 ╚═════════════════
@@ -569,7 +568,7 @@ def bot(op):
                     cl.sendChatChecked(msg.from_,msg.id)
                 else:
                     cl.sendChatChecked(msg.to,msg.id)
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.contentType == 13:
                 if wait["wblack"] == True:
