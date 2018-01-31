@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+
+#สคริปไม่ไม่มีไร..เป็นเเค่สคริปทดสอบ
+#อยากได้ไฟล์เต็มทักไลน์ไอดี Phet_testbot
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
