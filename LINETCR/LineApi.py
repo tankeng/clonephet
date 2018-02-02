@@ -50,14 +50,14 @@ class LINE:
    }
 
     self.Poll = Poll(self.authToken)
-    """self.channel = channel.Channel(self.authToken)
+    self.channel = channel.Channel(self.authToken)
     self.channel.login()
 
     self.mid = self.channel.mid
     self.channel_access_token = self.channel.channel_access_token
     self.token = self.channel.token
     self.obs_token = self.channel.obs_token
-    self.refresh_token = self.channel.refresh_token"""
+    self.refresh_token = self.channel.refresh_token
 
   """User"""
 
@@ -606,7 +606,7 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("Bagas~")
+      print("SELFBOT PHET HACK BOT")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)
